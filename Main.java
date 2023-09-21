@@ -12,8 +12,8 @@ public class Main {
     public static void main(String[] args) throws IOException{
         String content = new String(Files.readAllBytes(Paths.get("text.txt")));
         System.out.println(content);
-        List<String> textFile = new ArrayList<String>(Arrays.asList(content.split(" ")));
-        System.out.println("Array List: " + textFile);
+        List<String> textFileArray = new ArrayList<String>(Arrays.asList(content.split(" ")));
+        System.out.println("Array List: " + textFileArray);
     }
 }
 
