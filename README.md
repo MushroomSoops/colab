@@ -1,25 +1,21 @@
-# Project Title
+# Just another Java project
 
+### [<u>Project Devlog Video</u>](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 ## Description
 
 This project is a Java program that reads the content of a text file named "text.txt" and prints it to the console. It then splits the content into an ArrayList of words using the space character as a delimiter. The program then prints the ArrayList, the number of words in the ArrayList, and the number of characters in the ArrayList as a string.
 
+
+
 ## Table of Contents
 
-- [Project Title](#project-title)
+- [Just another Java project](#just-another-java-project)
+    - [Project Devlog Video](#project-devlog-video)
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
-  - [Installation](#installation)
   - [Usage](#usage)
   - [Contributing](#contributing)
   - [License](#license)
-
-## Installation
-
-1. Clone the repository
-2. Open the project in your IDE of choice
-3. Run the Main.java file
-
 ## Usage
 
 1. Ensure that a text file named "text.txt" is in the project directory
