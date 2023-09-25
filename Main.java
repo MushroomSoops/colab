@@ -17,17 +17,10 @@ public class Main {
         List<String> textFileArray = new ArrayList<String>(Arrays.asList(content.split(" ")));
         // Print the array
         System.out.println("Array List: " + textFileArray);
-<<<<<<< Updated upstream
         System.out.println("Words: " + textFileArray.size());
         String words = textFileArray.toString();
         System.out.println("Characters: " + words.length());
         System.out.println("Average word length: " + words.length()/textFileArray.size() + " characters");
-=======
-        // Print the size of the array
-        System.out.println("Word Count: " + textFileArray.size());
-
-        
->>>>>>> Stashed changes
     }
 }
 
