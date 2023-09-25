@@ -17,7 +17,7 @@ public class Main {
         System.out.println("Words: " + textFileArray.size());
         String words = textFileArray.toString();
         System.out.println("Characters: " + words.length());
-
+        System.out.println("Average word length: " + words.length()/textFileArray.size() + " characters");
     }
 }
 
