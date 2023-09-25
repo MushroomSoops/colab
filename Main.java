@@ -14,6 +14,7 @@ public class Main {
         System.out.println(content);
         List<String> textFileArray = new ArrayList<String>(Arrays.asList(content.split(" ")));
         System.out.println("Array List: " + textFileArray);
+        System.out.println("Words: " + textFileArray.size());
     }
 }
 
