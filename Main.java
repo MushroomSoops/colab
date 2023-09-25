@@ -10,14 +10,17 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) throws IOException{
+        // Convert text file to string
         String content = new String(Files.readAllBytes(Paths.get("text.txt")));
-        System.out.println(content);
+        content = content.replace("'" + '"' + ",", "");
+        // Converts to array, each letter is a new item in the array
         List<String> textFileArray = new ArrayList<String>(Arrays.asList(content.split(" ")));
-        System.out.println("Array List: " + textFileArray);
+        // Print the array
+        System.out.println("Array List: " + textFileArray); 
         System.out.println("Words: " + textFileArray.size());
         String words = textFileArray.toString();
         System.out.println("Characters: " + words.length());
-
+        System.out.println("Average word length: " + words.length()/textFileArray.size() + " characters");
     }
 }
 
