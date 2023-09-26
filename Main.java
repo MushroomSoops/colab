@@ -16,7 +16,7 @@ public class Main {
         // Converts to array, each letter is a new item in the array
         List<String> textFileArray = new ArrayList<String>(Arrays.asList(content.split(" ")));
         // Print the array
-        System.out.println("Array List: " + textFileArray);
+        System.out.println("Array List: " + textFileArray); 
         System.out.println("Words: " + textFileArray.size());
         String words = textFileArray.toString();
         System.out.println("Characters: " + words.length());
